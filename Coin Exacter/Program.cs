@@ -12,7 +12,7 @@ namespace CoinExacter
         {
             Console.WriteLine("Welcome to Money Maker!");
 
-            Console.WriteLine("Enter the amount to convert: ");
+            Console.WriteLine("Enter the U.S. cent amount to convert: ");
             string amount = Console.ReadLine();
             double userAmount = Convert.ToDouble(amount);
 
